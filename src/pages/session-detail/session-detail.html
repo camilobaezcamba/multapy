@@ -26,6 +26,10 @@
           Ley/Artículo
           <ion-badge item-end color="secondary">{{multa.ley_articulo}}</ion-badge>
         </ion-item>
+        <ion-item>
+          Demorar vehículo
+          <ion-badge item-end>{{multa.demorar_vehiculo == null? 'No': multa.demorar_vehiculo}}</ion-badge>
+        </ion-item>
       </ion-list>
     </ion-card>
   </div>
