@@ -32,7 +32,6 @@
         "cordova-android": "7.0.0",
         "cordova-ios": "4.3.1",
         "cordova-plugin-console": "^1.0.5",
-        "cordova-plugin-crosswalk-webview": "^2.2.0",
         "cordova-plugin-device": "^1.1.4",
         "cordova-plugin-inappbrowser": "^1.4.0",
         "cordova-plugin-splashscreen": "^4.0.3",
@@ -54,17 +53,11 @@
     "config": {},
     "cordova": {
         "platforms": [
-            "ios"
+            "ios",
+            "android"
         ],
         "plugins": {
             "cordova-plugin-console": {},
-            "cordova-plugin-crosswalk-webview": {
-                "XWALK_VERSION": "22+",
-                "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
-                "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
-                "XWALK_MODE": "embedded",
-                "XWALK_MULTIPLEAPK": "true"
-            },
             "cordova-plugin-device": {},
             "cordova-plugin-inappbrowser": {},
             "cordova-plugin-splashscreen": {},

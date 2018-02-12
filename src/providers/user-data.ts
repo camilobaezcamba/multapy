@@ -17,12 +17,16 @@ export class UserData {
 
   getFavorites(): void {
     this.storage.get("_favorites").then((data) => {
-      this._favorites = data;
+      this._favorites = data || [];
     });
   };
 
   hasFavorite(sessionName: string): boolean {
-    return (this._favorites.indexOf(sessionName) > -1);
+    if(this._favorites == null){
+      return false;
+    }else{
+      return (this._favorites.indexOf(sessionName) > -1);
+    }
   };
 
   addFavorite(sessionName: string): void {
