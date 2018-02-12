@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title *ngIf="multa">Infracción</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngIf="multa">
+    <ion-card>
+      <ion-card-header>
+        Detalle
+      </ion-card-header>
+      <ion-card-content>
+        {{multa.name}}
+      </ion-card-content>
+      <ion-list>
+        <ion-item>
+          Multa
+          <ion-badge item-end color="danger">{{multa.multa_monto}}</ion-badge>
+        </ion-item>
+        <ion-item>
+          Jornales
+          <ion-badge item-end>{{multa.multa_jornal}}</ion-badge>
+        </ion-item>
+        <ion-item>
+          Ley/Artículo
+          <ion-badge item-end color="secondary">{{multa.ley_articulo}}</ion-badge>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+  </div>
+</ion-content>

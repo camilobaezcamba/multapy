@@ -1,0 +1,1282 @@
+[
+  {
+    "ley_articulo": "A22",
+    "infraccion": "Por conducir sin tener cumplida la edad reglamentaria, segun clases de licencias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A23",
+    "infraccion": "Por ensenhar la conduccion de vehiculos sin cumplir los requisitos exigidos",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A24.C",
+    "infraccion": "Por circular con licencia de conducir vencida",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A24.F",
+    "infraccion": "No obedecer una señal impartida por un inspector",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A27",
+    "infraccion": "Por conducir un vehiculo sin tener las clases de licencias que correspondan, sin perjuicio de la aplicacion de lo dispuesto por el art. 106",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A28",
+    "infraccion": "Por circular con licencia caducada debido a no haber denunciado la modificacion de datos dentro de los 90 dias de producida dicha modificacion y en infracciones a las normas reglamentarias",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A29",
+    "infraccion": "Por conducir con licencia suspendida por ineptitud",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A35.A.5",
+    "infraccion": "Por realizar publicidad laudatoria de conductas contrarias a los fines de la ley de transito",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A38",
+    "infraccion": "Por ejecutar o instalar obras o dispositivos en la via publica que no se ajusten a las normas basicas de seguridad vial",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A39.1",
+    "infraccion": "Por realizar obras en la via publica sin contar con la autorizacion previa de la autoridad competente, cuandoesta sea exigible y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A39.2",
+    "infraccion": "Por no efectuar los señalamientos, desvios o reparaciones en los plazos convenidos y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A41.B",
+    "infraccion": "Por colocar luces y carteles que puedan confundirse con indicadores del transito o que por su intensidad o tamaño puedan perturbarlo",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A41.D",
+    "infraccion": "No evacuar a la via aguas servidas, ni dejar las cosas o desperdicios en lugares no autorizados y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A41.E",
+    "infraccion": "Por colocar inscripciones o anuncios visibles desde vias rurales o autopistas",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A41.F",
+    "infraccion": "No tener alambrados que impidan el ingreso de animales a la zona del camino y en infracciones a las normas reglamentarias",
+    "multa_jornal": 15,
+    "multa_monto": "1,177,575 Gs."
+  },
+  {
+    "ley_articulo": "A42",
+    "infraccion": "Animales sueltos en la via publica",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A43",
+    "infraccion": "Por realizar publicidad en la via publica sin observar la ubicacion reglamentaria o sin tener el correspondiente permiso de la autoridad competente",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A44.1",
+    "infraccion": "Por obstaculizar la visibilidad de los conductores o la debida percepcion de las señales de transito a causa de colocacion de carteles, pasacalle u otra forma de propaganda comercial",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A44.2",
+    "infraccion": "Por realizar publicidad en la via publica sobre publicidad que relacione a bebidas alcoholicas con la conduccion y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A45",
+    "infraccion": "Queda totalmente prohibido el consumo de bebidas alcoholicas, cualquiera sea su graduacion, en la via publica o en establecimientos comerciales que tengan acceso directo desde autopistas, rutas nacion",
+    "multa_jornal": 20,
+    "multa_monto": "1,570,100 Gs."
+  },
+  {
+    "ley_articulo": "A46",
+    "infraccion": "Por realizar construcciones permanentes o transitorias en la zona de camino, sin permiso de la autoridad competente y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A47",
+    "infraccion": "Sistemas y accesorios para vehiculos",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A48",
+    "infraccion": "De las condiciones tecnicas",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A49",
+    "infraccion": "Exepciones para las dimensiones y pesos maximos",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A50.A.1",
+    "infraccion": "Carecer de freno en alguna o en todas las ruedas",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A50.A.3",
+    "infraccion": "Carecer de suspension el vehiculo",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A50.C.1",
+    "infraccion": "Carecer salida de emergencia",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A50.F",
+    "infraccion": "Carecer acople de emergencia los vehiculos con acoplados",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A51.A",
+    "infraccion": "Carecer instalacion de cinturon de seguridad en el vehiculo",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A51.B",
+    "infraccion": "Carecer instalacion de apoyacabezas en el vehiculo",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A51.C",
+    "infraccion": "Carecer instalacion de paragolpes o guardabarros en el vehiculo",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A51.D",
+    "infraccion": "Carecer sistema autonomo de limpia parabrisas y lavado en el vehiculo",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A51.E",
+    "infraccion": "Carecer uno o ambos espejos de retrovisores de acuerdo al tipo o clase de vehiculo",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A51.F",
+    "infraccion": "Carecer bocina de sonoridad",
+    "multa_jornal": 2,
+    "multa_monto": "157,010 Gs."
+  },
+  {
+    "ley_articulo": "A51.G",
+    "infraccion": "Poseer vidrios de seguridad en malas condiciones (roto) y de tonalidad diferente a lo reglamentado",
+    "multa_jornal": 2,
+    "multa_monto": "157,010 Gs."
+  },
+  {
+    "ley_articulo": "A51.I",
+    "infraccion": "Carecer cinta retrorreflectantes perimetrales de los transportes de cargas y pasajeros",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A51.M",
+    "infraccion": "La conduccion de autovehiculos con la direccion hacia el lado derecho",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A52.1.A",
+    "infraccion": "Por carecer uno o mas faros de luces delanteros un autovehiculo en circulacion",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A52.1.B.3",
+    "infraccion": "Por carecer faros laterales en los costados para indicar longitud del vehiculo",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A52.1.C",
+    "infraccion": "Por carecer uno o mas faros de luces de giro de color amarillo o naranja",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A52.1.D",
+    "infraccion": "Por carecer uno o mas faros de luces de freno de color rojo",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A52.1.E",
+    "infraccion": "Por carecer faro de luz para la placa, patente trasera",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A52.1.F",
+    "infraccion": "Por carecer faro de luz para retroceso de color blanco",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A52.1.G",
+    "infraccion": "Por carecer faro de luces intermitentes de emergencia",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A52.2.1",
+    "infraccion": "Por tener instalados por el vehiculo mas de dos faros de luces buscahuellas",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A52.2.2",
+    "infraccion": "Por llevar descubiertos los faros auxiliares, salvo cuando se circule por caminos vecinales",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A53",
+    "infraccion": "Por circular los vehiculos automotores, acoplados y semirremolques, sin tener aprobada la revision tecnica periodica obligatoria cuando corresponda",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A54",
+    "infraccion": "Por no respetar el orden de prioridad normativa exigida. por no respetar las indicaciones de la autoridad de comprobacion o aplicacion, las senhales de transito y las normas legales, en ese orden de p",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A55",
+    "infraccion": "Negarse a entregar documento",
+    "multa_jornal": 15,
+    "multa_monto": "1,177,575 Gs."
+  },
+  {
+    "ley_articulo": "A56.A",
+    "infraccion": "Por no transitar los peatones, en zona urbana por la acera u otros espacios habilitados a ese fin y en las intersecciones, por la senda peatonal",
+    "multa_jornal": 1,
+    "multa_monto": "78,505 Gs."
+  },
+  {
+    "ley_articulo": "A56.B",
+    "infraccion": "En zona rural, por no transitar los peatones por la banquina en sentido contrario al transito del carril adyacente y por cruzar la calzada, sin respetar la prioridad de los vehiculos, cuando no exista",
+    "multa_jornal": 1,
+    "multa_monto": "78,505 Gs."
+  },
+  {
+    "ley_articulo": "A56.C",
+    "infraccion": "En zonas urbanas y rurales si existen cruces o pasarela peatonal a distinto nivel, su uso es obligatorio para atravesar la calzada",
+    "multa_jornal": 1,
+    "multa_monto": "78,505 Gs."
+  },
+  {
+    "ley_articulo": "A57",
+    "infraccion": "Los conductores que no circulen con cuidado y prevencion (manejar con una sola mano o llevar persona a su izquierda o entre sus brazos o que realizen maniobras sin precaucion o que circulen unicamente",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A58.A.1",
+    "infraccion": "Por circular sin estar habilitado para conducir ese tipo de vehiculo",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A58.A.2",
+    "infraccion": "No tener consigo la licencia de conducir",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs.",
+    "demorar_vehiculo": "Si"
+  },
+  {
+    "ley_articulo": "A58.B",
+    "infraccion": "Por circular sin portar la cedula de identificacion del vehiculo",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A58.D",
+    "infraccion": "Carencia de chapa y/o chapa provisoria vencida y/o ilegible",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs.",
+    "demorar_vehiculo": "Si"
+  },
+  {
+    "ley_articulo": "A58.F",
+    "infraccion": "Por circular sin portar, excepto las motocicletas, un matafuegos y balizas portatiles de acuerdo a la reglamentacion",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A58.G",
+    "infraccion": "Transportar persona en la carroceria de camioneta y/o no utilizar cinturon de seguridad menores de edad",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A58.H",
+    "infraccion": "Por no ajustarse el vehiculo y lo que transporta a las dimensiones, peso y potencia adecuados a la via transitada y las restricciones establecidas por la autoridad competente, para determinados sector",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A58.I",
+    "infraccion": "Por no poseer los sistemas de seguridad originales en buen estado de funcionamiento",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A58.J",
+    "infraccion": "No utilizar cinturon de seguridad conductor y/o acompañantes",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A59.1.A",
+    "infraccion": "Por no respetar la prioridad de paso a quien cruza desde su derecha, salvo senhalizacion en contrario",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A59.1.B",
+    "infraccion": "Por no ceder el paso a los vehiculos de servicio publico de urgencia en cumplimiento de su mision",
+    "multa_jornal": 15,
+    "multa_monto": "1,177,575 Gs."
+  },
+  {
+    "ley_articulo": "A59.1.C",
+    "infraccion": "Por no respetar la prioridad de paso o no detener la marcha cuando se ingresa o cruza a una ruta o avenida y en infracciones a las normas reglamentarias",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A59.D",
+    "infraccion": "Por no respetar la prioridad de los peatones en las sendas peatonales o zonas peligrosas y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A59.F",
+    "infraccion": "Por no respetar la prioridad cuando se desemboque desde una via de tierra a una pavimentada",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A60.A",
+    "infraccion": "Por sobrepasar sin constatar previamente que a su izquierda la via este libre en una distancia suficiente para evitar todo riesgo y que ningun conductor que le sigue lo este a su vez sobrepasando",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A60.B",
+    "infraccion": "Adelantamiento indebido por izquierda",
+    "multa_jornal": 12,
+    "multa_monto": "942,060 Gs."
+  },
+  {
+    "ley_articulo": "A60.C",
+    "infraccion": "Por sobrepasar sin advertir al que le precede su intencion de sobrepasarlo por medio de destellos de las luces frontales o la bocina en zona rural y sin utilizar el indicador de giro izquierdo hasta c",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A60.D",
+    "infraccion": "Por sobrepasar sin efectuar el sobrepaso rapidamente de forma tal de retomar su lugar a la derecha, sin interferir la marcha del vehiculo sobrepasado y sin realizarla con el indicador de giro derecho",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A60.E",
+    "infraccion": "El vehiculo que es sobrepasado por no tomar las medidas necesarias para posibilitarlo, circular por la derecha de la calzada y mantenerse, y eventualmente reducir su velocidad",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A60.F",
+    "infraccion": "Por adelantar, al vehiculo precedente, cuando el mismo este indicando con la luz de direccion izquierda la inconveniencia del adelantamiento",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A60.G",
+    "infraccion": "Por adelantar una fila de mas de dos vehiculos cuando estos no obstaculizan el transito",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A60.H",
+    "infraccion": "Por no facilitar, los camiones y maquinarias especiales, el adelantamiento en caminos angostos",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A60.I",
+    "infraccion": "Adelantamiento indebido por derecha",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A61.A",
+    "infraccion": "Por no advertir la maniobra al realizar un giro con suficiente antelacion, mediante la senhal luminosa correspondiente, que se mantendra hasta la salida de la interseccion",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A61.B",
+    "infraccion": "Mantener el carril para giro 30 metros antes",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A61.C",
+    "infraccion": "Reducir la velocidad girando a una marcha moderada",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A61.D",
+    "infraccion": "Giro en una rotonda sin respetar la prioridad",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A61.E",
+    "infraccion": "Por no realizar el giro por detras de los vehiculos de traccion a sangre",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A61.R.24",
+    "infraccion": "Giro en u",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A62.A.1",
+    "infraccion": "Por no avanzar con luz verde",
+    "multa_jornal": 15,
+    "multa_monto": "1,177,575 Gs."
+  },
+  {
+    "ley_articulo": "A62.A.2",
+    "infraccion": "No respetar luz roja",
+    "multa_jornal": 15,
+    "multa_monto": "1,177,575 Gs."
+  },
+  {
+    "ley_articulo": "A62.A.3",
+    "infraccion": "Por no prestar atencion a la luz amarilla antes de la roja",
+    "multa_jornal": 15,
+    "multa_monto": "1,177,575 Gs."
+  },
+  {
+    "ley_articulo": "A62.A.4",
+    "infraccion": "Tomar precaucion con luz intermitente para cruce de boca calle o avenida",
+    "multa_jornal": 15,
+    "multa_monto": "1,177,575 Gs."
+  },
+  {
+    "ley_articulo": "A62.A.5",
+    "infraccion": "Por no detener la marcha con luz roja intermitente",
+    "multa_jornal": 15,
+    "multa_monto": "1,177,575 Gs."
+  },
+  {
+    "ley_articulo": "A62.B",
+    "infraccion": "Por cruzar, el peaton, la calzada cuando el semaforo peatonal, de existir, no indique luz verde o blanca habilitante",
+    "multa_jornal": 1,
+    "multa_monto": "78,505 Gs."
+  },
+  {
+    "ley_articulo": "A62.E",
+    "infraccion": "Por haber iniciado el cruce, aun con luz verde, sin tener espacio suficiente del otro lado de la interseccion",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A62.F",
+    "infraccion": "Por girar a la izquierda en vias de doble mano reguladas por semaforo sin senhal que lo permita",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A63.B",
+    "infraccion": "No circular permaneciendo en un mismo carril y por el centro de este",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A63.C",
+    "infraccion": "La no advertencia sobre cambio de carril, mediante la luz de giro, que se realizara con una antelacion minima de 5 segundos y en infracciones a las normas reglamentarias",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A63.D",
+    "infraccion": "No mantener el lado derecho",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A63.E",
+    "infraccion": "Los vehiculos de pasajeros y de carga que no circulen unicamente por el carril derecho, utilizando el carril inmediato de su izquierda exclusivamente para sobrepasos",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A63.G",
+    "infraccion": "No ceder el paso",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.A.1",
+    "infraccion": "Por carecer de luz baja un lado o ambos lados",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.A.2",
+    "infraccion": "Por carecer de luz alta un lado o ambos lados",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.B.1",
+    "infraccion": "Carecer de una o ambas luces traseras",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.B.2",
+    "infraccion": "Por carecer luz de la placa patente",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.D.1",
+    "infraccion": "Por no encender las luces intermitentes de emergencia para indicar la detencion en zona peligrosa",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.E.1",
+    "infraccion": "Por utilizar las luces buscahuellas en lugares no permitidos",
+    "multa_jornal": 9,
+    "multa_monto": "706,545 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.E.2",
+    "infraccion": "Por carecer luz de retroceso",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.F.1",
+    "infraccion": "Por carecer de luz de freno un lado",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.F.2",
+    "infraccion": "Por carecer de luz de freno ambos lados",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A65.1.F.3",
+    "infraccion": "Carecer de señalero delantero y/o trasero",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A65.2",
+    "infraccion": "No llevar las luces reglamentarias encendidas",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A65.2.P3",
+    "infraccion": "Por encandilamiento a traves del espejo retrovisor utilizando la luz alta al aproximarse a otro vehiculo que circula por delante",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A65.2.P4",
+    "infraccion": "Por encandilamiento al no cambiar de luz alta por luz baja por lo menos 200 metros antes del cruce de otro vehiculo que circula en sentido contrario",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A65.3.1",
+    "infraccion": "Por no utilizar indicadores los rodados transportadores de explosivos",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A65.3.3",
+    "infraccion": "Por no utilizar indicadores rotativos luminosos las maquinas especiales y rodados de auxilio",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A66.A.1",
+    "infraccion": "Por conducir con variaciones psicofisicas permanentes a las tenidas en cuenta al momento de la habilitacion y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.A.2",
+    "infraccion": "Carencia de licencia de conducir",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs.",
+    "demorar_vehiculo": "Si"
+  },
+  {
+    "ley_articulo": "A66.A.3",
+    "infraccion": "Vencimiento de la licencia de conducir",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs.",
+    "demorar_vehiculo": "Si"
+  },
+  {
+    "ley_articulo": "A66.A.4",
+    "infraccion": "Alcotest desde 0,001 hasta 0,199 mg/l",
+    "multa_jornal": 3,
+    "multa_monto": "235,515 Gs.",
+    "demorar_vehiculo": "Si"
+  },
+  {
+    "ley_articulo": "A66.A.5",
+    "infraccion": "Alcotest desde 0,200 hasta 0,799 mg/l",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs.",
+    "demorar_vehiculo": "Si"
+  },
+  {
+    "ley_articulo": "A66.A.6",
+    "infraccion": "Por conducir bajo los efectos de estupefacientes o medicamentos que alteren los parametros normales para la conduccion segura y en infracciones a las normas reglamentarias",
+    "multa_jornal": 20,
+    "multa_monto": "1,570,100 Gs."
+  },
+  {
+    "ley_articulo": "A66.B",
+    "infraccion": "Entregar la direccion de un vehiculo a persona sin licencia de conducir y/o menores de 18 años",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs.",
+    "demorar_vehiculo": "Si"
+  },
+  {
+    "ley_articulo": "A66.C",
+    "infraccion": "Por circular en contramano",
+    "multa_jornal": 20,
+    "multa_monto": "1,570,100 Gs."
+  },
+  {
+    "ley_articulo": "A66.D",
+    "infraccion": "Por disminuir arbitraria y bruscamente la velocidad, realizar movimientos zigzaggueantes o maniobras caprichosas e intempestivas",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.E",
+    "infraccion": "Por obstruir el paso legitimo de peatones u otros vehiculos en una bocacalle, avanzando sobre ella, aun con derecho a hacerlo, si del otro lado de la interseccion no hay espacio suficiente que permita",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.F",
+    "infraccion": "Por no respetar la distancia de seguridad minima requerida (al menos 2 segundos) entre vehiculos que circulan por un mismo carril",
+    "multa_jornal": 9,
+    "multa_monto": "706,545 Gs."
+  },
+  {
+    "ley_articulo": "A66.G",
+    "infraccion": "Por circular marcha atras, excepto para estacionar, egresar de un garaje o de una calle sin salida y en infracciones a las normas reglamentarias",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A66.H",
+    "infraccion": "Por detenerse irregularmente sobre la calzada o banquina, excepto emergencias y en infracciones a las normas reglamentarias",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A66.I",
+    "infraccion": "Por circular o detenerse con equipos de sonido cuyos decibeles superen los niveles que permita la",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.J",
+    "infraccion": "Por cambiar de carril o fila, adelantarse, no respetar la velocidad precautoria y detenerse en curvas, intersecciones y otras zonas peligrosas",
+    "multa_jornal": 12,
+    "multa_monto": "942,060 Gs."
+  },
+  {
+    "ley_articulo": "A66.K",
+    "infraccion": "Por circular con cubiertas con fallas o sin la profundidad legal de los canales en su banda de rodamiento, en vehiculos 1,6 mm, en ciclomotores 0,5 mm y en motocicletas la profundidad minima sera de 1",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A66.L",
+    "infraccion": "Por transitar omnibus y camiones a una distancia menor a 100 metros entre si, salvo cuando tengan mas de 2 carriles por mano o para realizar una maniobra de adelantamiento",
+    "multa_jornal": 9,
+    "multa_monto": "706,545 Gs."
+  },
+  {
+    "ley_articulo": "A66.M",
+    "infraccion": "Por remolcar a otro vehiculo sin contar con la habilitacion tecnica especifica o los no destinados a tal fin, sin los dispositivos correspondientes y en infracciones a las normas reglamentarias",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A66.N",
+    "infraccion": "Por circular con mas de un acoplado, salvo lo dispuesto para maquinaria especial o agricola",
+    "multa_jornal": 9,
+    "multa_monto": "706,545 Gs."
+  },
+  {
+    "ley_articulo": "A66.Ñ",
+    "infraccion": "Por trasnportar residuos, escombros, tierra, arena, grava, aserrin, otra carga a granel, polvorientas y no cubran la carga con una carpa sujetada al vehiculo, cuando esta pudiese volar a consecuencia",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A66.O",
+    "infraccion": "Por transportar cualquier carga o elemento que perturbe la visibilidad, afecte peligrosamente las condiciones aerodinamicas del vehiculo, oculte luces o indicadores o sobresalga de los limites permiti",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A66.P",
+    "infraccion": "Por efectuar reparaciones en zonas urbanas, salvo arreglos de circunstancia, en cualquier tipo de vehiculo",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A66.Q",
+    "infraccion": "Por dejar animales sueltos y sin arrear hacienda, salvo en este ultimo caso, por caminos de tierra y fuera de la clazada",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.R",
+    "infraccion": "Estorbar u obstaculizar de cualquier forma la calzada o la banquina y hacer construcciones, instalarse o realizar venta de productos en zona alguna del camino",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.S",
+    "infraccion": "Por circular con bandas de rodamiento metalicas o con grapas, cadenas, unhas u otro elemento que danhe la calzada salvo sobre el barro, nieve o hielo y tambien los de traccion animal en caminos de tie",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.T",
+    "infraccion": "Usar la bocina o senhales acusticas, salvo en caso de peligro o en zona rural y tener el vehiculo sirena o bocina no autorizadas",
+    "multa_jornal": 3,
+    "multa_monto": "235,515 Gs."
+  },
+  {
+    "ley_articulo": "A66.U",
+    "infraccion": "Por circular con vehiculos que emitan gases, humos, ruidos, radiaciones u otras emanaciones contaminantes del ambiente que excedan los limites reglamentarios",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.V",
+    "infraccion": "Conducir utilizando auriculares y/o celular",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A66.W",
+    "infraccion": "Por circular con vehiculos que posean defensas delanteras y/o traseras, enganches sobresalientes o cualquier otro elemento que, excediendo los limites de los paragolpes o laterales de la carroceria, p",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A66.X",
+    "infraccion": "Conducir vehiculos que tengan instalados inhibidores de radar u otros mecanismos encaminados a interferir el correcto funcionamiento de los sistemas de vigilancia del transito",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.Y",
+    "infraccion": "En caso que el vehiculo cuente con equipos fijos como pantallas, monitores o radios con reproduccion de video que se encuentren en el campo visual del conductor, solo podran mostrar los videos cuando",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A66.Z.1",
+    "infraccion": "Conducir vehiculos al servicio del transporte publico con un numero de pasajeros superior a la capacidad autorizada. la autoridad que sorprenda tal acto, hara descender del vehiculo a los pasajeros qu",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A66.Z.2",
+    "infraccion": "Transportar persona en la carroceria de camion de carga",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.A",
+    "infraccion": "Por no estacionar, en zona urbana, paralelamente al cordon y en infracciones a las normas reglamentarias",
+    "multa_jornal": 3,
+    "multa_monto": "235,515 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.B.1",
+    "infraccion": "Por estacionar, en zona urbana, donde se pueda afectar la seguridad, visibilidad o fluidez del transito o se oculte la senhalizacion",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.B.2",
+    "infraccion": "Por estacionar, en zona urbana, en las esquinas, entre su vertice ideal y la linea imaginaria que resulte de prolongar la ochava y en cualquier lugar peligroso",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.B.3",
+    "infraccion": "Por estacionar, en zona urbana, sobre la senda para peatones o bicicletas, aceras, rieles, sobre la calzada y en los 10 metros anteriores y posteriores a la parada del transporte de pasajeros, no admi",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.B.4",
+    "infraccion": "Por estacionar, en zona urbana, frente a la puerta de hospitales, escuelas y otros servicios publicos, hasta 10 metros a cada lado de ellos, salvo los vehiculos relacionados a la funcion del estableci",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.B.5",
+    "infraccion": "Por estacionar, en zona urbana, frente a la salida de cines, teatros y similares, durante su funcionamiento",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.B.6",
+    "infraccion": "Por estacionar, en zona urbana, en los accesos de garajes en uso y de estacionamiento con ingreso habitual de vehiculos, siempre que tengan la senhal pertinente, con el respectivo horario de prohibici",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.B.7",
+    "infraccion": "Por estacionar, en zona urbana, por un periodo mayor de 5 dias o del lapso que fije la autoridad local y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.B.8",
+    "infraccion": "Por no observar las reglas de estacionamiento establecidas en la normativa vigente, los omnibus, microbus, casa rodante, camion, acoplado, semiacoplado o maquinaria especial, excepto en los lugares qu",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A67.1.C",
+    "infraccion": "Por estacionar, en zona urbana, es espacios reservados para vehiculos determinados donde conste la pertinente delimitacion y senhalamiento",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A67.2",
+    "infraccion": "En zona rural se estacionara lo mas lejos posible de la calzada y banquina, siempre que no se afecte la",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A68",
+    "infraccion": "Por circular a una velocidad que no corresponda a las condiciones del estado del vehiculo, carga, visibilidad, condiciones de la via, del tiempo y densidad del transito y no permita contar con el plen",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A69.1",
+    "infraccion": "Por excederse sobre el limite de velocidad maxima entre 11 a 20 km/h",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A69.2",
+    "infraccion": "Por excederse sobre el limite de velocidad maxima entre 21 a 30 km/h",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A69.3",
+    "infraccion": "Por excederse sobre el limite de velocidad maxima desde 31 km/h o mas",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A69.4",
+    "infraccion": "Por circular a una velocidad igual o inferior a la mitad del limite de velocidad maxima teneindo en cuenta a partir de velocidad maxima a 60 km/h o mas",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A70.R29",
+    "infraccion": "Por circular en bicicletas sin contar el conductor con casco protector. que el conductor sea su unico ocupante con la excepcion del transporte de una carga o de un ninho, ubicados en un portaequipaje",
+    "multa_jornal": 1,
+    "multa_monto": "78,505 Gs."
+  },
+  {
+    "ley_articulo": "A71.P2",
+    "infraccion": "Queda prohibido que circulen por un mismo carril mas de dos bicicletas, ciclomotores o motocicletas, una al lado de otra o sus conductores asidos de otros vehiculos o enfilados inmediatamente tras otr",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A71.P3",
+    "infraccion": "El conductor que guie por las vias publicas ciclomotores, motocicletas, triciclones, cuatriciclones y motocargas, no circularan entre carriles ni entre filas de vehiculos, debiendo conservar la respec",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A72.P1",
+    "infraccion": "El conductor que guie por las vias publicas ciclomotores, motocicletas, triciclones, cuatriciclones, con excepcion de las motocargas, no seran utilizados para llevar mas de dos personas, incluido el c",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A72.P2",
+    "infraccion": "Los conductores de ciclomotores, motocicletas, triciclones y cuatriciclones, no podran llevar como acompanhante un ninho menor de 12 anhos",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A72.P3",
+    "infraccion": "Esta prohibido llevar acompanhante alguno en las motocargas",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A74",
+    "infraccion": "No se llevaran en estos vehiculos objetos o elementos que impidan al conductor mantener ambas manos en el manubrio, asi como la estabilidad y el adecuado control del vehiculo",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A75",
+    "infraccion": "Queda prohibida la circulacion de ciclomotores, motocicletas, triciclones, cuatriciclones y motocargas por las aceras y paseos publicos destinados exclusivamente a los peatones",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A76.P1",
+    "infraccion": "Los ocupantes de ciclomotores, motocicletas, triciclones, cuatriciclones y motocargas deberan llevar obligatoriamente puesto el casco reglamentario y normalizado que cubra toda la cabeza, con excepcio",
+    "multa_jornal": 11,
+    "multa_monto": "863,555 Gs."
+  },
+  {
+    "ley_articulo": "A76.P2",
+    "infraccion": "No llevar puesto, los ocupantes de ciclomotores, motocicletas, triciclones, cuatriciclones y motocargas en todo momento, un chaleco reflectivo homologado o certificado segun las normas de seguridad vi",
+    "multa_jornal": 11,
+    "multa_monto": "863,555 Gs."
+  },
+  {
+    "ley_articulo": "A76.P3",
+    "infraccion": "Los ciclistas al momento de la circulacion deberan utilizar un casco reglamentario y normalizado por la autoridad competente",
+    "multa_jornal": 1,
+    "multa_monto": "78,505 Gs."
+  },
+  {
+    "ley_articulo": "A77",
+    "infraccion": "Se prohibe circular con ciclomotores, motocicletas, triciclones, cuatriciclones y motocargas con escape libre o desprovisto de silenciador que controle o limite la generacion de ruidos y en infraccion",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A78.P1",
+    "infraccion": "Los ciclomotores, motocicletas, triciclones, cuatriciclones y motocargas deberan contar con material adhesivo reflectivo en su parte trasera, conforme a la normativa vigente y en infracciones a las no",
+    "multa_jornal": 3,
+    "multa_monto": "235,515 Gs."
+  },
+  {
+    "ley_articulo": "A78.P2",
+    "infraccion": "Por circular en bicicleta sin contar con elementos retroreflectivos en pedales y ruedas para facilitar su deteccion durante la noche",
+    "multa_jornal": 1,
+    "multa_monto": "78,505 Gs."
+  },
+  {
+    "ley_articulo": "A79",
+    "infraccion": "Los ciclomotores, motocicletas, triciclones, cuatriciclones y motocargas deberan circular permanentemente con las luces encendidas",
+    "multa_jornal": 4,
+    "multa_monto": "314,020 Gs."
+  },
+  {
+    "ley_articulo": "A81",
+    "infraccion": "Prohibicion para la circulacion o transito de vehiculos de transporte de pasajeros que no hayan cumplido con los requisitos establecidos por la aurtoridad nacional competente en materia de transporte y en acuerdos.",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A82.A",
+    "infraccion": "El ascenso y descenso de pasajeros se hara unicamente en las paradas establecidas",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A82.B",
+    "infraccion": "Queda prohibido en el cruce de la interseccion el ascenso y descenso de pasajeros cuando no haya parada senhalada, se efectuaran sobre el costado derecho de la calzada, antes del cruce",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A82.C",
+    "infraccion": "Por no prever la exclusividad de asientos de la primera fila para uso de las personas con movilidad reducida",
+    "multa_jornal": 3,
+    "multa_monto": "235,515 Gs."
+  },
+  {
+    "ley_articulo": "A82.D",
+    "infraccion": "Por no trasladar a los no videntes y demas personas con discapacidad con el animal guia o aparato de asistencia de que se valgan",
+    "multa_jornal": 3,
+    "multa_monto": "235,515 Gs."
+  },
+  {
+    "ley_articulo": "A82.E",
+    "infraccion": "En toda circunstancia, la detencion se hara paralelamente a la acera y cerca de ella, de manera tal que permita el adelantamiento e otros vehiculos por su izquierda y lo impida por su derecha",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A82.F",
+    "infraccion": "Por llevar las puertas abiertas en vehiculos en circulacion afectados al servicio de transporte urbano, o permitir que los pasajeros viajen en las estriberas o saquen los brazos o partes del cuerpo fu",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A83",
+    "infraccion": "Por transportar escolares o menores escolares en infracciones a las disposiciones de la presente ley y a las normas reglamentarias sera sancionado conforme a las faltas cometidas. sin perjuicio de lo",
+    "multa_jornal": "0",
+    "multa_monto": "0 Gs."
+  },
+  {
+    "ley_articulo": "A84.A",
+    "infraccion": "Carecer o no tener consigo habilitacion o tener vencida camiones",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A84.B",
+    "infraccion": "Carecer la documentacion pertinente de la carga transportada en la forma que fija la reglamentacion y en infracciones a las normas reglamentarias",
+    "multa_jornal": 7,
+    "multa_monto": "549,535 Gs."
+  },
+  {
+    "ley_articulo": "A84.C.1",
+    "infraccion": "Transportar la carga excepcional e indivisible en vehiculos no especiales",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A84.C.2",
+    "infraccion": "Transportar la carga excepcional e indivisible en vehiculos especiales y sin la portacion del permiso correspondiente",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A84.D",
+    "infraccion": "Transportar el ganado mayor, los liquidos y la carga a granel en vehiculos que no cuenten con la compartimentacion reglamentaria",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A84.E",
+    "infraccion": "Colocar los contenedores normalizados en vehiculos adaptados con los dispositivos de sujecion que no cumplan las condiciones de seguridad reglamentarias y la debida senhalizacion perimetral con elemen",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A84.F",
+    "infraccion": "No senhalizar con banderas de color rojo y con dispositivos proyectores de luz durante la noche, cualquier carga que sobresalga de la parte trasera, delantera o lateral del vehiculo",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A84.G.1",
+    "infraccion": "Cuando transporten sustancias peligrosas y no tengan elementos distintivos y de seguridad reglamentarios",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A84.G.2",
+    "infraccion": "Cuando un vehiculo que transporten sustancias peligrosas es conducido y tripulado por personal no habilitado y no capacitado en la especialidad del tipo de carga que llevan",
+    "multa_jornal": 8,
+    "multa_monto": "628,040 Gs."
+  },
+  {
+    "ley_articulo": "A85.1",
+    "infraccion": "Los vehiculos con exceso de carga no podran continuar transitando y deberan realizar inmediatamente el desalojo correspondiente, conforme a esta ley y a la reglamentacion",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A85.2",
+    "infraccion": "Los vehiculos que circulan sin permiso para transportar con exceso de medidas de la carga, conforme lo establece el art. 49 de la ley",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A86.1",
+    "infraccion": "Es obligatorio para el transportista el ingreso o paso por los revisores de cargas. la evasion del control",
+    "multa_jornal": 20,
+    "multa_monto": "1,570,100 Gs."
+  },
+  {
+    "ley_articulo": "A86.2",
+    "infraccion": "Carecer del ticket correspondiente de pesaje que el conductor portara para exhibir en los controles de la patrulla caminera hasta el destino final y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A87",
+    "infraccion": "Por no instalar las balizas reglamentarias en caso de detencion de cualquier vehiculo o la presencia de cargas u objetos sobre la calzada o banquina",
+    "multa_jornal": 6,
+    "multa_monto": "471,030 Gs."
+  },
+  {
+    "ley_articulo": "A88.1",
+    "infraccion": "Por utilizar la via publica para fines extranhos al transito sin la autorizacion reglamentaria",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A88.2",
+    "infraccion": "Por participar u organizar en la via publica competencias no autorizadas de destreza o velocidad con automotores y en infracciones a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A89",
+    "infraccion": "Por circular con vehiculo de emergencia en infraccion a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A90",
+    "infraccion": "Por circular con maquinaria especial en infraccion a las normas reglamentarias",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A91",
+    "infraccion": "Por utilizar franquicia de transito no reglamentaria o usarla indebidamente y en infracciones a las normas reglamentarias",
+    "multa_jornal": 12,
+    "multa_monto": "942,060 Gs."
+  },
+  {
+    "ley_articulo": "A93",
+    "infraccion": "Por no cumplir con las obligaciones legales para participes de un accidente de transito y en infracciones a las normas reglamentarias",
+    "multa_jornal": 20,
+    "multa_monto": "1,570,100 Gs."
+  },
+  {
+    "ley_articulo": "A106.A",
+    "infraccion": "La autoridad competente debera retener las licencias o los vehiculos dando inmediato conocimiento a la autoridad de juzgamiento conforme a la reglamentacion",
+    "multa_jornal": "0",
+    "multa_monto": "0 Gs."
+  },
+  {
+    "ley_articulo": "A106.B.3",
+    "infraccion": "Carencia de habilitacion, habilitacion vencida y/o no portar la habilitacion",
+    "multa_jornal": 5,
+    "multa_monto": "392,525 Gs."
+  },
+  {
+    "ley_articulo": "A106.B.7",
+    "infraccion": "Por conducir estando inhabilitado o con la habilitacion suspendida y en infracciones a las normas",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A112.H",
+    "infraccion": "Circular con vehiculos de transporte de pasajeros o carga, sin contar con la habilitacion extendida por autoridad competente o que teniendola no cumpliera con lo alli exigido",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A112.W",
+    "infraccion": "Negarse a pagar o evadir el pago de la tarifa de peaje",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "A113.G",
+    "infraccion": "Alcotest desde 0,800 mg/l",
+    "multa_jornal": 20,
+    "multa_monto": "1,570,100 Gs.",
+    "demorar_vehiculo": "Si"
+  },
+  {
+    "ley_articulo": "A113.H",
+    "infraccion": "Negarse a realizar las pruebas expresamente autorizadas para determinar su grado de intoxicacion alcoholica o por drogas",
+    "multa_jornal": 20,
+    "multa_monto": "1,570,100 Gs."
+  },
+  {
+    "ley_articulo": "ACC. DE TRANSITO",
+    "infraccion": "Accidente de transito",
+    "multa_jornal": "0",
+    "multa_monto": "0 Gs."
+  },
+  {
+    "ley_articulo": "RES. 2232/15",
+    "infraccion": "Zona restringida - operativo caacupe",
+    "multa_jornal": 10,
+    "multa_monto": "785,050 Gs."
+  },
+  {
+    "ley_articulo": "DENUNCIA",
+    "infraccion": "Por denuncia",
+    "multa_jornal": "0",
+    "multa_monto": "0 Gs."
+  }
+]
