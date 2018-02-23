@@ -52,6 +52,10 @@ export class MultasPage {
 
   }
 
+  ionViewWillEnter() {
+    this.updateSchedule();
+  }
+
   updateSchedule() {
     // Close any open sliding items when the schedule updates
     this.scheduleList && this.scheduleList.closeSlidingItems();
