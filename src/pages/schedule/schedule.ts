@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, FabContainer, ItemSliding, List, ModalController, NavController, ToastController, LoadingController, Refresher } from 'ionic-angular';
+import { AlertController, App, ItemSliding, List, ModalController, NavController, ToastController, LoadingController, Refresher } from 'ionic-angular';
 
 /*
   To learn how to use third party libs in an
@@ -13,7 +13,7 @@ import { UserData } from '../../providers/user-data';
 
 import { SessionDetailPage } from '../session-detail/session-detail';
 import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
-
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 @Component({
   selector: 'page-schedule',
@@ -43,6 +43,7 @@ export class MultasPage {
     public toastCtrl: ToastController,
     public confData: ConferenceData,
     public user: UserData,
+    private socialSharing: SocialSharing
   ) {}
 
   ionViewDidLoad() {
@@ -161,7 +162,15 @@ export class MultasPage {
     alert.present();
   }
 
-  openSocial(network: string, fab: FabContainer) {
+  openSocial() {
+    let mensaje = "Descargá la app de Multas de Paraguay\nhttp://bit.ly/multapy";
+    this.socialSharing.share(mensaje).then(() => {
+      // Sharing via email is possible
+    }).catch(() => {
+      // Sharing via email is not possible
+    });
+
+    /*
     let loading = this.loadingCtrl.create({
       content: `Posting to ${network}`,
       duration: (Math.random() * 1000) + 500
@@ -170,6 +179,7 @@ export class MultasPage {
       fab.close();
     });
     loading.present();
+    */
   }
 
   doRefresh(refresher: Refresher) {

@@ -28,6 +28,7 @@ import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 
 @NgModule({
@@ -93,7 +94,8 @@ import { UserData } from '../providers/user-data';
     ConferenceData,
     UserData,
     InAppBrowser,
-    SplashScreen
+    SplashScreen,
+    SocialSharing
   ]
 })
 export class AppModule { }

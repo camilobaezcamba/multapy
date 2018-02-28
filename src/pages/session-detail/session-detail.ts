@@ -3,6 +3,8 @@ import {AlertController, IonicPage, NavParams, ToastController} from 'ionic-angu
 
 import { ConferenceData } from '../../providers/conference-data';
 import {UserData} from "../../providers/user-data";
+import { SocialSharing } from '@ionic-native/social-sharing';
+
 
 @IonicPage({
   segment: 'session/:sessionId'
@@ -19,7 +21,8 @@ export class SessionDetailPage {
     public toastCtrl: ToastController,
     public dataProvider: ConferenceData,
     public navParams: NavParams,
-    public user: UserData
+    public user: UserData,
+    private socialSharing: SocialSharing
   ) {}
 
   ionViewWillEnter() {
@@ -96,5 +99,25 @@ export class SessionDetailPage {
     });
     // now present the alert on top of all other content
     alert.present();
+  }
+
+  openSocial(multa: any) {
+    let mensaje = multa.name + "\nMulta: " + multa.multa_monto + "\n\nDescargá la app de Multas de Paraguay\nhttp://bit.ly/multapy";
+    this.socialSharing.share(mensaje).then(() => {
+      // Sharing via email is possible
+    }).catch(() => {
+      // Sharing via email is not possible
+    });
+
+    /*
+    let loading = this.loadingCtrl.create({
+      content: `Posting to ${network}`,
+      duration: (Math.random() * 1000) + 500
+    });
+    loading.onWillDismiss(() => {
+      fab.close();
+    });
+    loading.present();
+    */
   }
 }

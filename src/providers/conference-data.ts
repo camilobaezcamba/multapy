@@ -25,12 +25,8 @@ export class ConferenceData {
   }
 
   loadMultas(): any {
-    if (this.data) {
-      return Observable.of(this.data);
-    } else {
       return this.http.get('http://polifaces.altervista.org/multas.php')
         .map(this.processDataMultas, this);
-    }
   }
 
   processData(data: any) {
