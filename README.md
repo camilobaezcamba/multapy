@@ -11,7 +11,7 @@ Listado de infracciones
 
 Si solamente se quiere compartir texto se puede borrar el permiso WRITE_EXTERNAL_STORAGE para no solicitar al usuario final un permiso que no utilizará la app.
 
-1. Se deben borrar las líneas indicadas más abajo que se encuentran en el archivo "plugin.xml" de la librería descargada:
+1. Se deben borrar las líneas indicadas más abajo que se encuentran en el archivo "plugin.xml" de la librería descargada
     
     **path del archivo**: plugins/cordova-plugin-x-socialsharing/plugin.xml
     
@@ -20,6 +20,7 @@ Si solamente se quiere compartir texto se puede borrar el permiso WRITE_EXTERNAL
         </config-file>
         
 2. Borrar la plataforma
+
     ```
       $ ionic cordova platform remove android
     ```
