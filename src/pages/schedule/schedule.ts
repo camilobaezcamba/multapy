@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, ItemSliding, List, ModalController, NavController, ToastController, LoadingController, Refresher } from 'ionic-angular';
+import { AlertController, App, ItemSliding, List, NavController, ToastController, Refresher } from 'ionic-angular';
 
 /*
   To learn how to use third party libs in an
@@ -12,7 +12,6 @@ import { ConferenceData } from '../../providers/conference-data';
 import { UserData } from '../../providers/user-data';
 
 import { SessionDetailPage } from '../session-detail/session-detail';
-import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
 import { SocialSharing } from '@ionic-native/social-sharing';
 
 @Component({
@@ -29,16 +28,12 @@ export class MultasPage {
   dayIndex = 0;
   queryText = '';
   segment = 'all';
-  excludeTracks: any = [];
   shownSessions: any = [];
   groups: any = [];
-  confDate: string;
 
   constructor(
     public alertCtrl: AlertController,
     public app: App,
-    public loadingCtrl: LoadingController,
-    public modalCtrl: ModalController,
     public navCtrl: NavController,
     public toastCtrl: ToastController,
     public confData: ConferenceData,
@@ -77,19 +72,6 @@ export class MultasPage {
       }
       this.groups = data;
     });
-  }
-
-  presentFilter() {
-    let modal = this.modalCtrl.create(ScheduleFilterPage, this.excludeTracks);
-    modal.present();
-
-    modal.onWillDismiss((data: any[]) => {
-      if (data) {
-        this.excludeTracks = data;
-        this.updateSchedule();
-      }
-    });
-
   }
 
   goToSessionDetail(sessionData: any) {
@@ -183,7 +165,7 @@ export class MultasPage {
   }
 
   doRefresh(refresher: Refresher) {
-    this.confData.getMultas(this.queryText, this.segment).subscribe((data: any) => {
+    this.confData.getMultas(this.queryText, this.segment, true).subscribe((data: any) => {
       this.groups = data;
       // simulate a network request that would take longer
       // than just pulling from out local json file
@@ -192,6 +174,18 @@ export class MultasPage {
 
         const toast = this.toastCtrl.create({
           message: 'Las multas han sido actualizadas.',
+          duration: 3000
+        });
+        toast.present();
+      }, 1000);
+    }, () => {
+      // simulate a network request that would take longer
+      // than just pulling from out local json file
+      setTimeout(() => {
+        refresher.complete();
+
+        const toast = this.toastCtrl.create({
+          message: 'Error de conexión. No se actualizaron las multas.',
           duration: 3000
         });
         toast.present();

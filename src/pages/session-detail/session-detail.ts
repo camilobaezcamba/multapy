@@ -26,7 +26,7 @@ export class SessionDetailPage {
   ) {}
 
   ionViewWillEnter() {
-    this.dataProvider.load().subscribe((multas: any) => {
+    this.dataProvider.loadMultas(false).subscribe((multas: any) => {
       if (
         multas
       ) {
