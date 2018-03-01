@@ -24,6 +24,7 @@ Si solamente se quiere compartir texto se puede borrar el permiso WRITE_EXTERNAL
     ```
       $ ionic cordova platform remove android
     ```
+    
 3. Volver a agregar la plataforma
     
     ```
