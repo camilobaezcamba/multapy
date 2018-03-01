@@ -3,6 +3,9 @@
 Disponible en: [Play Store](https://play.google.com/store/apps/details?id=com.ionicframework.multas136991) 
 y [App Store](https://itunes.apple.com/us/app/multapy/id1268332527?mt=8)
 
+iOS     | Android
+---------| -----
+![alt text](src/ios_logo.svg)  |  <img src="https://play.google.com/intl/en_us/badges/images/generic/es-419_badge_web_generic.png" alt="alt text" width="150px">
 
 ## Configuración de libreria Social Sharing
 
