@@ -21,15 +21,15 @@ Si solamente se quiere compartir texto se puede borrar el permiso WRITE_EXTERNAL
     
 2. Borrar la plataforma
 
-```sh
-  $ ionic cordova platform remove android
-```
+  ```sh
+    $ ionic cordova platform remove android
+  ```
     
 3. Volver a agregar la plataforma
 
-```sh
-  $ ionic cordova platform add android
-```
+  ```sh
+    $ ionic cordova platform add android
+  ```
 
 
 ## Compilación
