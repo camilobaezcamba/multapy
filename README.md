@@ -20,11 +20,13 @@ Si solamente se quiere compartir texto se puede borrar el permiso WRITE_EXTERNAL
         </config-file>
     
 2. Borrar la plataforma
+
     ```sh
       $ ionic cordova platform remove android
     ```
     
 3. Volver a agregar la plataforma
+
     ```sh
       $ ionic cordova platform add android
     ```
@@ -34,12 +36,14 @@ Si solamente se quiere compartir texto se puede borrar el permiso WRITE_EXTERNAL
 Para compilar basta con ejecutar el comando correspondiente
 ### Android
 Compilar, firmar y optimizar
+
 ```sh
   $ ./android.sh
 ```
 
 ### iOS
 Compilar
+
 ```sh
   $ ./ios.sh
 ```
