@@ -1,0 +1,7 @@
+{
+  "name": "Multapy",
+  "description": "Listado de infracciones de Paraguay",
+  "repository": "https://github.com/camilobaezcamba/multapy",
+  "logo": "https://github.com/camilobaezcamba/multapy/blob/master/resources/icon.png",
+  "keywords": ["node", "express", "static"]
+}
