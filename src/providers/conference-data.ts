@@ -16,7 +16,7 @@ export class ConferenceData {
   constructor(public http: Http, public user: UserData) { }
 
   loadMultasForce(): any {
-      return this.http.get('https://polifaces.altervista.org/multas.php')
+      return this.http.get('http://polifaces.altervista.org/multas.php')
         .map(this.processDataMultas, this);
   }
 
