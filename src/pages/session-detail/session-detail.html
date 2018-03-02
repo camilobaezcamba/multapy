@@ -41,7 +41,7 @@
       </ion-row>
     </ion-card>
   </div>
-  <ion-fab bottom right #fab>
+  <ion-fab bottom right #fab *ngIf="esApp()">
     <button ion-fab (click)="openSocial(multa)"><ion-icon name="share"></ion-icon></button>
   </ion-fab>
 </ion-content>

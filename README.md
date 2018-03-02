@@ -31,8 +31,26 @@ Si solamente se quiere compartir texto se puede borrar el permiso WRITE_EXTERNAL
       $ ionic cordova platform add android
     ```
 
-## Compilación
-Para compilar basta con ejecutar el comando correspondiente
+## Compilación y despliegue
+Para compilar basta con ejecutar el comando correspondiente a cada plataforma
+
+```sh
+  $ npm install
+```
+
+### Web local (Testing)
+
+
+1. Iniciar el servicio
+
+    ```sh
+      $ ionic lab
+    ```
+
+2. Ingresar a [http://localhost:8100/ionic-lab](http://localhost:8100/ionic-lab)
+
+
+
 ### Android
 Compilar, firmar y optimizar
 

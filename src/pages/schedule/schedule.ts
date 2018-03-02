@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, ItemSliding, List, NavController, ToastController, Refresher } from 'ionic-angular';
+import { AlertController, App, ItemSliding, List, NavController, ToastController, Refresher, Platform } from 'ionic-angular';
 
 /*
   To learn how to use third party libs in an
@@ -30,6 +30,7 @@ export class MultasPage {
   segment = 'all';
   shownSessions: any = [];
   groups: any = [];
+  isApp: boolean;
 
   constructor(
     public alertCtrl: AlertController,
@@ -38,13 +39,14 @@ export class MultasPage {
     public toastCtrl: ToastController,
     public confData: ConferenceData,
     public user: UserData,
-    private socialSharing: SocialSharing
+    private socialSharing: SocialSharing,
+    public platform: Platform
   ) {}
 
   ionViewDidLoad() {
     this.app.setTitle('Multa');
     this.user.getFavorites();
-    this.updateSchedule();
+    this.updateSchedule(true);
 
   }
 
@@ -52,7 +54,7 @@ export class MultasPage {
     this.updateSchedule();
   }
 
-  updateSchedule() {
+  updateSchedule(force = false) {
     // Close any open sliding items when the schedule updates
     this.scheduleList && this.scheduleList.closeSlidingItems();
 
@@ -60,7 +62,7 @@ export class MultasPage {
       this.shownSessions = data.shownSessions;
       this.groups = data.groups;
     });*/
-    this.confData.getMultas(this.queryText, this.segment).subscribe((data: any) => {
+    this.confData.getMultas(this.queryText, this.segment, force).subscribe((data: any) => {
       this.shownSessions = 0;
       if(data && data.constructor === Array ){
         data.forEach((multa: any) => {
@@ -191,5 +193,9 @@ export class MultasPage {
         toast.present();
       }, 1000);
     });
+  }
+
+  esApp(){
+    return !(this.platform.is('core') || this.platform.is('mobileweb'));
   }
 }

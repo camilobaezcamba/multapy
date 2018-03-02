@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {AlertController, IonicPage, NavParams, ToastController} from 'ionic-angular';
+import {AlertController, IonicPage, NavParams, Platform, ToastController} from 'ionic-angular';
 
 import { ConferenceData } from '../../providers/conference-data';
 import {UserData} from "../../providers/user-data";
@@ -22,7 +22,8 @@ export class SessionDetailPage {
     public dataProvider: ConferenceData,
     public navParams: NavParams,
     public user: UserData,
-    private socialSharing: SocialSharing
+    private socialSharing: SocialSharing,
+    public platform: Platform
   ) {}
 
   ionViewWillEnter() {
@@ -119,5 +120,9 @@ export class SessionDetailPage {
     });
     loading.present();
     */
+  }
+
+  esApp(){
+    return !(this.platform.is('core') || this.platform.is('mobileweb'));
   }
 }

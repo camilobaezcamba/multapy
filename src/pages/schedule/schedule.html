@@ -72,7 +72,7 @@
       No se encontraron multas
   </ion-list-header>
 
-  <ion-fab bottom right #fab>
+  <ion-fab bottom right #fab *ngIf="esApp()">
     <button ion-fab (click)="openSocial()"><ion-icon name="share"></ion-icon></button>
   </ion-fab>
 
