@@ -30,7 +30,7 @@ export class MultasPage {
   segment = 'all';
   shownSessions: any = [];
   groups: any = [];
-  isApp: boolean;
+  loaded: boolean;
 
   constructor(
     public alertCtrl: AlertController,
@@ -51,7 +51,9 @@ export class MultasPage {
   }
 
   ionViewWillEnter() {
-    this.updateSchedule();
+    if(this.loaded){
+      this.updateSchedule();
+    }
   }
 
   updateSchedule(force = false) {
@@ -73,6 +75,7 @@ export class MultasPage {
         });
       }
       this.groups = data;
+      this.loaded = true;
     });
   }
 

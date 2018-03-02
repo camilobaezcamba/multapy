@@ -16,15 +16,11 @@ export class ConferenceData {
   constructor(public http: Http, public user: UserData) { }
 
   loadMultasForce(): any {
-    console.log('aaaaaaaaa');
       return this.http.get('http://polifaces.altervista.org/multas.php')
         .map(this.processDataMultas, this);
   }
 
   loadMultas(force: boolean): any {
-    console.log('bbb'+ force);
-    console.log(this.data);
-
     if(force) {
       return this.loadMultasForce();
     } else if (this.data) {
