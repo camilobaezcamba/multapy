@@ -32,7 +32,7 @@ Si solamente se quiere compartir texto se puede borrar el permiso WRITE_EXTERNAL
     ```
 
 ## Compilación y despliegue
-Para compilar basta con ejecutar el comando correspondiente a cada plataforma
+Para compilar basta con ejecutar el comando correspondiente a cada plataforma luego del siguiente comando
 
 ```sh
   $ npm install
@@ -52,17 +52,37 @@ Para compilar basta con ejecutar el comando correspondiente a cada plataforma
 
 
 ### Android
-Compilar, firmar y optimizar
+Compilar, firmar y optimizar.
+
+Para poder ejecutar el comando de compilación es necesario realizar las siguientes configuraciónes:
+
+1. Copiar y pegar **(no renombrar)** el archivo "release.properties.sample" cambiando de nombre a "release.properties"
+2. Editar los valores según su configuración local:
+
+    | Clave | Valor |
+    | -------  | ----- |
+    | keyStorePath | Ubicación del keystore para firmar la app|
+    | keyStorePassword | Contraseña del almacén de claves |
+    | keyAliasName | Alias de la llave |
+    | keyAliasPassword | Contraseña de la llave |
+    | zipAlignPath | Ubicación de la librería ZipAlign para optimización de la app|
+    | apkFile | Nombre del apk listo para subir a Google Play Store | 
+
+
+Ejecutar el siguiente comando:
 
 ```sh
   $ ./android.sh
 ```
 
 ### iOS
-Compilar
+Ejecutar el siguiente comando:
 
 ```sh
   $ ./ios.sh
 ```
 
 
+##Atribución
+Como base para la construcción de la aplicación se utilizó
+[Ionic Conference Application](https://github.com/ionic-team/ionic-conference-app)
