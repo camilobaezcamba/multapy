@@ -68,7 +68,10 @@
 
   </ion-list>
 
-  <ion-list-header [hidden]="shownSessions > 0">
+  <ion-list-header [hidden]="!loading">
+    Cargando multas...
+  </ion-list-header>
+  <ion-list-header [hidden]="shownSessions >= 0 && loading">
       No se encontraron multas
   </ion-list-header>
 

@@ -31,6 +31,7 @@ export class MultasPage {
   shownSessions = 0;
   groups: any = [];
   loaded: boolean;
+  loading: boolean = false;
 
   constructor(
     public alertCtrl: AlertController,
@@ -47,7 +48,6 @@ export class MultasPage {
     this.app.setTitle('Multa');
     this.user.getFavorites();
     this.updateSchedule(true);
-
   }
 
   ionViewWillEnter() {
@@ -64,6 +64,8 @@ export class MultasPage {
       this.shownSessions = data.shownSessions;
       this.groups = data.groups;
     });*/
+
+    this.loading = true;
     this.confData.getMultas(this.queryText, this.segment, force).subscribe((data: any) => {
       this.shownSessions = 0;
       if(data && data.constructor === Array ){
@@ -76,7 +78,12 @@ export class MultasPage {
       }
       this.groups = data;
       this.loaded = true;
-    });
+      this.loading = false;
+      },
+      () => {
+        this.loading = false;
+        this.showErrorToast();
+      });
   }
 
   goToSessionDetail(sessionData: any) {
@@ -186,16 +193,21 @@ export class MultasPage {
     }, () => {
       // simulate a network request that would take longer
       // than just pulling from out local json file
-      setTimeout(() => {
-        refresher.complete();
-
-        const toast = this.toastCtrl.create({
-          message: 'Error de conexión. No se actualizaron las multas.',
-          duration: 3000
-        });
-        toast.present();
-      }, 1000);
+      this.showErrorToast(refresher);
     });
+  }
+
+  showErrorToast(refresher?: Refresher){
+    setTimeout(() => {
+      if(refresher) {
+        refresher.complete();
+      }
+      const toast = this.toastCtrl.create({
+        message: 'Error de conexión. No se actualizaron las multas.',
+        duration: 3000
+      });
+      toast.present();
+    }, 1000);
   }
 
   esApp(){
