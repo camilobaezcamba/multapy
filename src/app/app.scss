@@ -67,3 +67,21 @@
     }
   }
 }
+
+//Soluciona error de ion-item en produccion
+.label-md {
+  margin: 13px 8px 13px 0;
+}
+
+ion-label {
+  margin: 0;
+  display: block;
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: inherit;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

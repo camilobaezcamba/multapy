@@ -28,7 +28,7 @@ export class MultasPage {
   dayIndex = 0;
   queryText = '';
   segment = 'all';
-  shownSessions: any = [];
+  shownSessions = 0;
   groups: any = [];
   loaded: boolean;
 
