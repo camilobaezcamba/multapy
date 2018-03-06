@@ -83,6 +83,6 @@ Ejecutar el siguiente comando:
 ```
 
 
-##Atribución
+## Atribución
 Como base para la construcción de la aplicación se utilizó
 [Ionic Conference Application](https://github.com/ionic-team/ionic-conference-app)
