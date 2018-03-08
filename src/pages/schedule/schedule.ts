@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 
-import { AlertController, App, ItemSliding, List, NavController, ToastController, Refresher, Platform } from 'ionic-angular';
+import { App, ItemSliding, List, NavController, ToastController, Refresher, Platform } from 'ionic-angular';
 
 /*
   To learn how to use third party libs in an
@@ -12,7 +12,7 @@ import { ConferenceData } from '../../providers/conference-data';
 import { UserData } from '../../providers/user-data';
 
 import { SessionDetailPage } from '../session-detail/session-detail';
-import { SocialSharing } from '@ionic-native/social-sharing';
+import {Util} from "../../providers/util";
 
 @Component({
   selector: 'page-schedule',
@@ -30,17 +30,17 @@ export class MultasPage {
   segment = 'all';
   shownSessions = 0;
   groups: any = [];
-  loaded: boolean;
+  loaded: boolean = false;
   loading: boolean = false;
+  detallado: boolean = false;
 
   constructor(
-    public alertCtrl: AlertController,
     public app: App,
     public navCtrl: NavController,
     public toastCtrl: ToastController,
     public confData: ConferenceData,
     public user: UserData,
-    private socialSharing: SocialSharing,
+    public util: Util,
     public platform: Platform
   ) {}
 
@@ -54,6 +54,10 @@ export class MultasPage {
     if(this.loaded){
       this.updateSchedule();
     }
+  }
+
+  toggleDetallado(){
+    this.detallado = !this.detallado;
   }
 
   updateSchedule(force = false) {
@@ -82,7 +86,29 @@ export class MultasPage {
       },
       () => {
         this.loading = false;
-        this.showErrorToast();
+        if(!this.loaded){
+           this.user.getMultas().then((multas) => {
+             if(multas != null && multas != undefined && multas.length > 0){
+               this.confData.data = multas;
+               this.groups = multas;
+               this.loading = false;
+               if(multas && multas.constructor === Array ){
+                 multas.forEach((multa: any) => {
+                   if (!multa.hide) {
+                     // if this session is not hidden then this group should show
+                     this.shownSessions++;
+                   }
+                 });
+               }
+               this.showToast("Error de conexión. Recuperadas de última sesión");
+             }else{
+               this.showErrorToast();
+             }
+           }, () => {
+             this.showErrorToast();
+           });
+        }
+
       });
   }
 
@@ -94,86 +120,16 @@ export class MultasPage {
   }
 
   addFavorite(slidingItem: ItemSliding, sessionData: any) {
-
-    if (this.user.hasFavorite(sessionData.name)) {
-      // woops, they already favorited it! What shall we do!?
-      // prompt them to remove it
-      this.removeFavorite(slidingItem, sessionData, 'Ya es un favorito');
-    } else {
-      // remember this session as a user favorite
-      this.user.addFavorite(sessionData.name);
-
-      // create an alert instance
-      /*let alert = this.alertCtrl.create({
-        title: 'Favorito Agregado',
-        buttons: [{
-          text: 'OK',
-          handler: () => {
-            // close the sliding item
-            slidingItem.close();
-          }
-        }]
-      });*/
-      // now present the alert on top of all other content
-      //alert.present();
-      const toast = this.toastCtrl.create({
-        message: 'Agregado a favoritos.',
-        duration: 3000
-      });
-      toast.present();
-      slidingItem.close();
-    }
-
+    this.util.addFavorite(slidingItem, sessionData, () => this.updateSchedule());
   }
 
   removeFavorite(slidingItem: ItemSliding, sessionData: any, title: string) {
-    let alert = this.alertCtrl.create({
-      title: title,
-      message: 'Le gustaría quitar de sus favoritos?',
-      buttons: [
-        {
-          text: 'Cancelar',
-          handler: () => {
-            // they clicked the cancel button, do not remove the session
-            // close the sliding item and hide the option buttons
-            slidingItem.close();
-          }
-        },
-        {
-          text: 'Quitar',
-          handler: () => {
-            // they want to remove this session from their favorites
-            this.user.removeFavorite(sessionData.name);
-            this.updateSchedule();
-
-            // close the sliding item and hide the option buttons
-            slidingItem.close();
-          }
-        }
-      ]
-    });
-    // now present the alert on top of all other content
-    alert.present();
+    this.util.removeFavorite(slidingItem, sessionData, title, () => this.updateSchedule());
   }
 
   openSocial() {
     let mensaje = "Descargá la app de Multas de Paraguay\nhttp://bit.ly/multapy";
-    this.socialSharing.share(mensaje).then(() => {
-      // Sharing via email is possible
-    }).catch(() => {
-      // Sharing via email is not possible
-    });
-
-    /*
-    let loading = this.loadingCtrl.create({
-      content: `Posting to ${network}`,
-      duration: (Math.random() * 1000) + 500
-    });
-    loading.onWillDismiss(() => {
-      fab.close();
-    });
-    loading.present();
-    */
+    this.util.openSocial(mensaje);
   }
 
   doRefresh(refresher: Refresher) {
@@ -208,6 +164,14 @@ export class MultasPage {
       });
       toast.present();
     }, 1000);
+  }
+
+  showToast(mensaje?: string){
+      const toast = this.toastCtrl.create({
+        message: mensaje || 'Error de conexión. No se actualizaron las multas.',
+        duration: 3000
+      });
+      toast.present();
   }
 
   esApp(){

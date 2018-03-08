@@ -7,6 +7,7 @@ import { Storage } from '@ionic/storage';
 @Injectable()
 export class UserData {
   _favorites: string[] = [];
+  _multas: Object[] = [];
   HAS_LOGGED_IN = 'hasLoggedIn';
   HAS_SEEN_TUTORIAL = 'hasSeenTutorial';
 
@@ -14,6 +15,17 @@ export class UserData {
     public events: Events,
     public storage: Storage
   ) {}
+
+  getMultas(): Promise<any> {
+    return this.storage.get("_multas").then((data) => {
+      this._multas = data || [];
+      return this._multas;
+    });
+  };
+
+  setMultas(multas: any): void {
+    this.storage.set("_multas", multas);
+  };
 
   getFavorites(): void {
     this.storage.get("_favorites").then((data) => {

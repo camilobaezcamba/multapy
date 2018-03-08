@@ -34,6 +34,11 @@ export class ConferenceData {
     // just some good 'ol JS fun with objects and arrays
     // build up the data by linking speakers to sessions
     this.data = data.json();
+
+    //Se actualiza el localStorage
+    if(this.data != null && this.data != undefined && this.data.length > 0){
+      this.user.setMultas(this.data);
+    }
     return this.data;
   }
 

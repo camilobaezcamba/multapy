@@ -68,6 +68,13 @@
   }
 }
 
+.titulo-item {
+  line-height: 1.5em;
+  height: 3em;
+  overflow: hidden;
+  width: 100%;
+}
+
 //Soluciona error de ion-item en produccion
 .label-md {
   margin: 13px 8px 13px 0;

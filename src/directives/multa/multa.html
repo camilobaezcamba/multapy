@@ -1,0 +1,33 @@
+<ion-card>
+  <ion-card-content>
+    <h2>
+    {{multa.name}}
+    </h2>
+  </ion-card-content>
+    <ion-item>
+      <button ion-button icon-left clear item-start>
+        {{multa.multa_monto}}
+      </button>
+      <ion-note item-end>
+        {{multa.multa_jornal}}
+        <span>jornales</span>
+      </ion-note>
+      <ion-note item-end *ngIf="multa.demorar_vehiculo == 'Si'">
+        Demorar <ion-icon name="car"></ion-icon>
+      </ion-note>
+    </ion-item>
+  <ion-row text-center>
+    <ion-col>
+      <button item-start ion-button icon-left clear small (click)="!user.hasFavorite(multa.name) ? addFavorite(multa) : removeFavorite(multa, 'Quitar favorito')">
+        <ion-icon [name]="user.hasFavorite(multa.name) ? 'heart' : 'heart-outline'" [color]="user.hasFavorite(multa.name) ? 'primary' : 'dark'"></ion-icon>
+        <div ion-text text-capitalize [color]="user.hasFavorite(multa.name) ? 'primary' : 'dark'" >Favorito</div>
+      </button>
+    </ion-col>
+    <ion-col *ngIf="esApp()">
+      <button item-end ion-button icon-left clear small (click)="openSocial(multa)">
+        <ion-icon name="share-alt" color="dark"></ion-icon>
+        <div ion-text text-capitalize color="dark" >Compartir</div>
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-card>

@@ -6,42 +6,6 @@
 
 <ion-content padding>
   <div *ngIf="multa">
-    <ion-card>
-      <ion-card-header>
-        Detalle
-      </ion-card-header>
-      <ion-card-content>
-        {{multa.name}}
-      </ion-card-content>
-      <ion-list>
-        <ion-item>
-          Multa
-          <ion-badge item-end color="danger">{{multa.multa_monto}}</ion-badge>
-        </ion-item>
-        <ion-item>
-          Jornales
-          <ion-badge item-end color="facebook">{{multa.multa_jornal}}</ion-badge>
-        </ion-item>
-        <ion-item>
-          Ley/Artículo
-          <ion-badge item-end color="secondary">{{multa.ley_articulo}}</ion-badge>
-        </ion-item>
-        <ion-item>
-          Demorar vehículo
-          <ion-badge item-end>{{multa.demorar_vehiculo == null? 'No': multa.demorar_vehiculo}}</ion-badge>
-        </ion-item>
-      </ion-list>
-      <ion-row>
-        <ion-col>
-          <button ion-button icon-left clear small (click)="!this.user.hasFavorite(multa.name) ? addFavorite(multa) : removeFavorite(multa, 'Quitar favorito')">
-            <ion-icon name="thumbs-up" [color]="this.user.hasFavorite(multa.name) ? 'primary' : 'dark'"></ion-icon>
-            <div ion-text [color]="this.user.hasFavorite(multa.name) ? 'primary' : 'dark'" >Favorito</div>
-          </button>
-        </ion-col>
-      </ion-row>
-    </ion-card>
+    <multa [multa]="multa"></multa>
   </div>
-  <ion-fab bottom right #fab *ngIf="esApp()">
-    <button ion-fab (click)="openSocial(multa)"><ion-icon name="share"></ion-icon></button>
-  </ion-fab>
 </ion-content>

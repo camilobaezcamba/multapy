@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
-import { NgModule, ErrorHandler } from '@angular/core';
+import {NgModule, ErrorHandler} from '@angular/core';
 
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 
@@ -20,6 +20,8 @@ import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
 import { SocialSharing } from '@ionic-native/social-sharing';
+import { MultaComponent } from '../directives/multa/multa.component';
+import {Util} from "../providers/util";
 
 
 @NgModule({
@@ -29,7 +31,8 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     PopoverPage,
     MultasPage,
     SessionDetailPage,
-    TabsPage
+    TabsPage,
+    MultaComponent
   ],
   imports: [
     BrowserModule,
@@ -57,6 +60,7 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     { provide: ErrorHandler, useClass: IonicErrorHandler },
     ConferenceData,
     UserData,
+    Util,
     InAppBrowser,
     SplashScreen,
     SocialSharing

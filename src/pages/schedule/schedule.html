@@ -18,6 +18,11 @@
         <ion-icon ios="ios-options-outline" md="md-options"></ion-icon>
       </button>
     </ion-buttons>-->
+    <ion-buttons end>
+      <button ion-button icon-only (click)="toggleDetallado()">
+        <ion-icon [name]="detallado ? 'list-box' : 'list'"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 
   <ion-toolbar no-border-top>
@@ -33,45 +38,36 @@
   <ion-refresher (ionRefresh)="doRefresh($event)">
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
+  <multa [hidden]="!detallado || group.hide" *ngFor="let group of groups" [multa]="group"></multa>
 
   <ion-list #scheduleList [hidden]="shownSessions === 0">
-
-    <ion-item-group *ngFor="let group of groups" [hidden]="group.hide">
-
-      <!--<ion-item-divider sticky>
-        <ion-label>
-          {{group.infraccion}}
-        </ion-label>
-      </ion-item-divider>-->
-
-      <ion-item-sliding #slidingItem [attr.track]="group.infraccion | lowercase">
+      <ion-item-sliding *ngFor="let group of groups" [hidden]="detallado || group.hide" #slidingItem [attr.track]="group.infraccion | lowercase">
 
         <button ion-item (click)="goToSessionDetail(group)">
           <h3>{{group.infraccion}}</h3>
-          <p class="text-ios-primary text-md-primary text-wp-primary">
+          <p item-content class="text-ios-primary text-md-primary text-wp-primary" style="font-size: 0.5em;">
             {{group.multa_monto}}
           </p>
         </button>
 
         <ion-item-options>
           <button ion-button color="favorite" (click)="addFavorite(slidingItem, group)" *ngIf="segment === 'all'">
-            Favorito
+            <ion-icon name="heart"></ion-icon>
+            <span text-capitalize="" style="font-size: 0.8em;">Favorito</span>
           </button>
           <button ion-button color="danger" (click)="removeFavorite(slidingItem, group, 'Quitar favorito')" *ngIf="segment === 'favorites'">
-            Quitar
+            <ion-icon name="trash"></ion-icon>
+            <span text-capitalize="" style="font-size: 0.8em;">Quitar</span>
           </button>
         </ion-item-options>
 
       </ion-item-sliding>
-
-    </ion-item-group>
-
   </ion-list>
 
   <ion-list-header [hidden]="!loading">
     Cargando multas...
   </ion-list-header>
-  <ion-list-header [hidden]="shownSessions >= 0 && loading">
+  <ion-list-header [hidden]="shownSessions > 0 || loading">
       No se encontraron multas
   </ion-list-header>
 
