@@ -127,8 +127,13 @@ export class MultasPage {
     this.util.removeFavorite(slidingItem, sessionData, title, () => this.updateSchedule());
   }
 
-  openSocial() {
-    let mensaje = "Descargá la app de Multas de Paraguay\nhttp://bit.ly/multapy";
+  openSocial(multa?: any) {
+    let mensaje;
+    if(multa){
+      mensaje = multa.name + "\nMulta: " + multa.multa_monto + "\n\nDescargá la app de Multas de Paraguay\nhttp://bit.ly/multapy";
+    } else{
+      mensaje = "Descargá la app de Multas de Paraguay\nhttp://bit.ly/multapy";
+    }
     this.util.openSocial(mensaje);
   }
 

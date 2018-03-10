@@ -40,7 +40,7 @@
   </ion-refresher>
   <multa [hidden]="!detallado || group.hide" *ngFor="let group of groups" [multa]="group"></multa>
 
-  <ion-list #scheduleList [hidden]="shownSessions === 0">
+  <ion-list #scheduleList [hidden]="shownSessions === 0" >
       <ion-item-sliding *ngFor="let group of groups" [hidden]="detallado || group.hide" #slidingItem [attr.track]="group.infraccion | lowercase">
 
         <button ion-item (click)="goToSessionDetail(group)">
@@ -53,11 +53,12 @@
         <ion-item-options>
           <button ion-button color="favorite" (click)="addFavorite(slidingItem, group)" *ngIf="segment === 'all'">
             <ion-icon name="heart"></ion-icon>
-            <span text-capitalize="" style="font-size: 0.8em;">Favorito</span>
           </button>
           <button ion-button color="danger" (click)="removeFavorite(slidingItem, group, 'Quitar favorito')" *ngIf="segment === 'favorites'">
             <ion-icon name="trash"></ion-icon>
-            <span text-capitalize="" style="font-size: 0.8em;">Quitar</span>
+          </button>
+              <button ion-button color="vimeo" (click)="openSocial(group)"  *ngIf="esApp()">
+            <ion-icon name="share-alt"></ion-icon>
           </button>
         </ion-item-options>
 
