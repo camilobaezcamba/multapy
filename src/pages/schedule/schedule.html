@@ -51,13 +51,13 @@
         </button>
 
         <ion-item-options>
-          <button ion-button color="favorite" (click)="addFavorite(slidingItem, group)" *ngIf="segment === 'all'">
+          <button ion-button icon-only color="favorite" (click)="addFavorite(slidingItem, group)" *ngIf="segment === 'all'">
             <ion-icon name="heart"></ion-icon>
           </button>
-          <button ion-button color="danger" (click)="removeFavorite(slidingItem, group, 'Quitar favorito')" *ngIf="segment === 'favorites'">
+          <button ion-button icon-only color="danger" (click)="removeFavorite(slidingItem, group, 'Quitar favorito')" *ngIf="segment === 'favorites'">
             <ion-icon name="trash"></ion-icon>
           </button>
-              <button ion-button color="vimeo" (click)="openSocial(group)"  *ngIf="esApp()">
+          <button ion-button icon-only color="vimeo" (click)="openSocial(group)"  *ngIf="esApp()">
             <ion-icon name="share-alt"></ion-icon>
           </button>
         </ion-item-options>
