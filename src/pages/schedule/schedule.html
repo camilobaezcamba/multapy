@@ -40,7 +40,7 @@
   </ion-refresher>
   <multa [hidden]="!detallado || group.hide" *ngFor="let group of groups" [multa]="group"></multa>
 
-  <ion-list #scheduleList [hidden]="shownSessions === 0" >
+  <ion-list #scheduleList [hidden]="shownSessions === 0" no-lines>
       <ion-item-sliding *ngFor="let group of groups" [hidden]="detallado || group.hide" #slidingItem [attr.track]="group.infraccion | lowercase">
 
         <button ion-item (click)="goToSessionDetail(group)">
