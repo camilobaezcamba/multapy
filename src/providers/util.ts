@@ -29,7 +29,9 @@ export class Util {
       });
       toast.present();
       if(slidingItem) {
-        slidingItem.close();
+        setTimeout(() => {
+          slidingItem.close();
+        });
       }
     }
   };
@@ -45,7 +47,9 @@ export class Util {
             // they clicked the cancel button, do not remove the session
             // close the sliding item and hide the option buttons
             if(slidingItem) {
-              slidingItem.close();
+              setTimeout(() => {
+                slidingItem.close();
+              });
             }
           }
         },
@@ -57,7 +61,9 @@ export class Util {
 
             // close the sliding item and hide the option buttons
             if(slidingItem) {
-              slidingItem.close();
+              setTimeout(() => {
+                slidingItem.close();
+              });
             }
             if(callback) {
               callback();

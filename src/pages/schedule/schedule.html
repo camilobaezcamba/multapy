@@ -38,27 +38,29 @@
   <ion-refresher (ionRefresh)="doRefresh($event)">
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
-  <multa [hidden]="!detallado || group.hide" *ngFor="let group of groups" [multa]="group"></multa>
+  <multa [hidden]="!detallado || group.hide" *ngFor="let group of groups" [multa]="group" (onSuccess)="updateSchedule()"></multa>
 
   <ion-list #scheduleList [hidden]="shownSessions === 0" no-lines>
-      <ion-item-sliding *ngFor="let group of groups" [hidden]="detallado || group.hide" #slidingItem [attr.track]="group.infraccion | lowercase">
+      <ion-item-sliding *ngFor="let group of groups"
+                        [hidden]="detallado || group.hide"
+                        #slidingItem
+                        [attr.track]="group.infraccion | lowercase">
 
         <button ion-item (click)="goToSessionDetail(group)">
           <h3>{{group.infraccion}}</h3>
-          <p item-content class="text-ios-primary text-md-primary text-wp-primary" style="font-size: 0.5em;">
+          <ion-note item-content class="text-ios-primary text-md-primary text-wp-primary" style="font-size: 0.6em;">
             {{group.multa_monto}}
-          </p>
+          </ion-note>
         </button>
-
-        <ion-item-options>
-          <button ion-button icon-only color="favorite" (click)="addFavorite(slidingItem, group)" *ngIf="segment === 'all'">
+        <ion-item-options (ionSwipe)="segment === 'all' ? addFavorite(slidingItem, group): removeFavorite(slidingItem, group, 'Quitar favorito')">
+          <button ion-button icon-only color="vimeo" (click)="openSocial(group)" *ngIf="esApp()">
+            <ion-icon name="share-alt"></ion-icon>
+          </button>
+          <button ion-button icon-only expandable color="favorite" (click)="addFavorite(slidingItem, group)" *ngIf="segment === 'all'">
             <ion-icon name="heart"></ion-icon>
           </button>
-          <button ion-button icon-only color="danger" (click)="removeFavorite(slidingItem, group, 'Quitar favorito')" *ngIf="segment === 'favorites'">
+          <button ion-button icon-only expandable color="danger" (click)="removeFavorite(slidingItem, group, 'Quitar favorito')" *ngIf="segment === 'favorites'">
             <ion-icon name="trash"></ion-icon>
-          </button>
-          <button ion-button icon-only color="vimeo" (click)="openSocial(group)"  *ngIf="esApp()">
-            <ion-icon name="share-alt"></ion-icon>
           </button>
         </ion-item-options>
 

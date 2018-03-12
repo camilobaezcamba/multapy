@@ -1,4 +1,4 @@
-import { Component , Input}  from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 import { UserData } from "../../providers/user-data";
 import {Util} from "../../providers/util";
 import {Platform} from "ionic-angular";
@@ -25,6 +25,7 @@ class Multa {
 })
 export class MultaComponent {
   @Input('multa') multa: Multa;
+  @Output() onSuccess: EventEmitter<any> = new EventEmitter();
 
   constructor(
     public user: UserData,
@@ -33,11 +34,11 @@ export class MultaComponent {
   ) {}
 
   addFavorite(sessionData: any) {
-    this.util.addFavorite(undefined, sessionData);
+    this.util.addFavorite(undefined, sessionData, () => this.onSuccess.emit());
   }
 
   removeFavorite(sessionData: any, title: string) {
-    this.util.removeFavorite(undefined, sessionData, title);
+    this.util.removeFavorite(undefined, sessionData, title, () => this.onSuccess.emit());
   }
 
   openSocial(multa: any) {

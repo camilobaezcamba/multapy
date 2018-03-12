@@ -33,6 +33,7 @@ export class MultasPage {
   loaded: boolean = false;
   loading: boolean = false;
   detallado: boolean = false;
+  favorito: string = 'prueba';
 
   constructor(
     public app: App,
